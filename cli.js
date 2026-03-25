@@ -12,5 +12,7 @@ const exists = existsSync(dest);
 mkdirSync(skillDir, { recursive: true });
 copyFileSync(source, dest);
 
-console.log(`\n  ✓ code-review skill ${exists ? "updated" : "installed"} at ${dest}\n`);
-console.log("  Usage: run /code-review in any project with Claude Code\n");
+console.log(`\n  ${exists ? "updated" : "installed"}: ${dest}\n`);
+console.log("  Run /code-review in any project to start a review.\n");
+console.log("  Other agents (Cursor, Codex, Windsurf, Antigravity):");
+console.log("  Copy SKILL.md to your agent's skill directory.\n");

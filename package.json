@@ -1,7 +1,7 @@
 {
   "name": "codebase-reviewer",
-  "version": "1.0.0",
-  "description": "Claude Code skill for systematic codebase reviews",
+  "version": "1.1.0",
+  "description": "AI coding agent skill that reviews your codebase and generates QUESTIONS.md",
   "bin": {
     "codebase-reviewer": "cli.js"
   },
@@ -12,6 +12,11 @@
   "keywords": [
     "claude",
     "claude-code",
+    "cursor",
+    "codex",
+    "antigravity",
+    "windsurf",
+    "ai-agent",
     "skill",
     "code-review",
     "codebase"
