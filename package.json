@@ -1,0 +1,25 @@
+{
+  "name": "codebase-reviewer",
+  "version": "1.0.0",
+  "description": "Claude Code skill for systematic codebase reviews",
+  "bin": {
+    "codebase-reviewer": "./install.mjs"
+  },
+  "files": [
+    "install.mjs",
+    "SKILL.md"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skill",
+    "code-review",
+    "codebase"
+  ],
+  "author": "cidoliveira",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cidoliveira/codebase-reviewer.git"
+  }
+}

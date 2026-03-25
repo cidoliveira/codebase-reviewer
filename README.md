@@ -12,7 +12,7 @@ Two-phase review process:
 ## Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/cidoliveira/codebase-reviewer/main/SKILL.md -o ~/.claude/skills/code-review/SKILL.md --create-dirs
+npx codebase-reviewer
 ```
 
 ## Usage
