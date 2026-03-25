@@ -11,11 +11,8 @@ Two-phase review process:
 
 ## Install
 
-Copy `SKILL.md` to your Claude Code personal skills directory:
-
 ```bash
-mkdir -p ~/.claude/skills/code-review
-cp SKILL.md ~/.claude/skills/code-review/SKILL.md
+curl -fsSL https://raw.githubusercontent.com/cidoliveira/codebase-reviewer/main/SKILL.md -o ~/.claude/skills/code-review/SKILL.md --create-dirs
 ```
 
 ## Usage
