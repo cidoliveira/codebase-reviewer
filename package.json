@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Claude Code skill for systematic codebase reviews",
   "bin": {
-    "codebase-reviewer": "./install.mjs"
+    "codebase-reviewer": "./cli.mjs"
   },
   "files": [
-    "install.mjs",
+    "cli.mjs",
     "SKILL.md"
   ],
   "keywords": [
