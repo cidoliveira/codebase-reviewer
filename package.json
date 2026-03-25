@@ -1,10 +1,9 @@
 {
   "name": "codebase-reviewer",
   "version": "1.0.0",
-  "type": "module",
   "description": "Claude Code skill for systematic codebase reviews",
   "bin": {
-    "codebase-reviewer": "./cli.js"
+    "codebase-reviewer": "cli.js"
   },
   "files": [
     "cli.js",
@@ -21,6 +20,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cidoliveira/codebase-reviewer.git"
+    "url": "git+https://github.com/cidoliveira/codebase-reviewer.git"
   }
 }
