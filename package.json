@@ -1,12 +1,13 @@
 {
   "name": "codebase-reviewer",
   "version": "1.0.0",
+  "type": "module",
   "description": "Claude Code skill for systematic codebase reviews",
   "bin": {
-    "codebase-reviewer": "./cli.mjs"
+    "codebase-reviewer": "./cli.js"
   },
   "files": [
-    "cli.mjs",
+    "cli.js",
     "SKILL.md"
   ],
   "keywords": [
